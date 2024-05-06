@@ -15,10 +15,10 @@ public class arrlist{
         // list.set(9,99);//(no index for 9) wont work cuz it depends on (2) not on (1)
         // list.remove(2);
         // System.out.println(list);
-        Scanner s = new Scanner(System.in);
-        int n = s.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         for(int i=0;i<n;i++){
-            list.add(s.nextInt());
+            list.add(sc.nextInt());
         }
         for(int i=0;i<n;i++){
            System.out.println(list.get(i));//to print the element you need get that value by index
