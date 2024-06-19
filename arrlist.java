@@ -12,13 +12,13 @@ public class arrlist{
         // list.add(70);
         // System.out.println(list.contains(55));
         // list.set(0,99);// index value and value(update)
-        // list.set(9,99);//wont work cuz it depends on (2) not on (1)
+        // list.set(9,99);//(no index for 9) wont work cuz it depends on (2) not on (1)
         // list.remove(2);
         // System.out.println(list);
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
         for(int i=0;i<n;i++){
-            list.add(sc.nextInt());
+            list.add(s.nextInt());
         }
         for(int i=0;i<n;i++){
            System.out.println(list.get(i));//to print the element you need get that value by index
