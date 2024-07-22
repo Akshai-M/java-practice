@@ -21,8 +21,6 @@ class BellmanFord {
         for (int i = 0; i < numVertices; ++i) {
             dist[i] = Integer.MAX_VALUE;
             parent[i] = -1;
-            System.out.println(dist[i]);
-            System.out.println(parent[i]);
         }
         dist[source] = 0;
         
