@@ -6,12 +6,12 @@ class BellmanFord {
     private int[][] graph;
     private int numVertices;
     
-    public BellmanFord(int numVertices) {
-        this.numVertices = numVertices;
-        this.dist = new int[numVertices];
-        this.parent = new int[numVertices];
-        this.graph = new int[numVertices][numVertices];
-    }
+    // public BellmanFord(int numVertices) {
+    //     this.numVertices = numVertices;
+    //     this.dist = new int[numVertices];
+    //     this.parent = new int[numVertices];
+    //     this.graph = new int[numVertices][numVertices];
+    // }
     
     public void addEdge(int u, int v, int weight) {
         graph[u][v] = weight;
